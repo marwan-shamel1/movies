@@ -1,0 +1,31 @@
+.fiction .fiction-table {
+    padding-top: 2rem !important;
+}
+
+.fiction .fiction-table ul li {
+    padding-top: 0.625rem;
+    padding-bottom: 1.063rem;
+    font-size: 1rem;
+    color: #fff;
+    border-bottom: 1px solid #eaeaea85;
+    font-weight: 300;
+}
+
+.fiction .fiction-table ul li span {
+    margin-right: .6rem;
+    font-weight: 600;
+}
+
+.fiction a.movie-watch{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.movie-content{
+    left: 50%;
+    transform: translate(-50%, -32%);
+    -webkit-transform: translate(-50%, -32%);
+    -moz-transform: translate(-50%, -32%);
+    -ms-transform: translate(-50%, -32%);
+    -o-transform: translate(-50%, -32%);
+}

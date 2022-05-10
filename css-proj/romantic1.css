@@ -1,0 +1,701 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+div{
+    text-align:center;
+    font-size: 23px;;
+    top:90px;
+    letter-spacing: 2px;
+    
+
+  }
+  
+  body{
+      background-image: url("../media/poster4.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+    font-family: 'Playfair Display', serif;
+    
+  }
+  .movies,.series{
+      text-shadow:1px 1px 1px #FFFFFF ;
+      font-size:30px;
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+ 
+  
+  }
+  p,h1,p2,h2,p3{
+    font-family: 'Playfair Display', serif;
+    font-size:16px;
+     text-shadow:4px 4px 10px black;
+  }
+  img{
+    position:relative;
+    left:170px;
+    border-radius: 30px;
+    margin: 4px;
+  }
+  .series{
+      font-family: 'Playfair Display', serif;
+      font-size:30px;
+  
+  }
+  .film{
+     color:blue;
+     font-size: 50px;
+     text-decoration: none;
+  }
+  .navbar{ 
+    z-index: 99;
+    top: 0%;
+    position: sticky;border-radius: 12px;
+    width:100%;
+    background-color: rgb(0, 0, 0,70%);
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 12px 12px;
+    top: 100%;
+    display: inline-block;
+    width: 102%;
+    text-align: center;
+}
+
+nav{
+    display: inline-block;
+    width: 102%;
+    text-align: center;
+}
+nav ul li{
+    padding: 10px 10px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+
+}
+.footer{
+    list-style: none;
+    border-radius: 12px;
+    background-color:rgb(0, 0, 0,70%) ;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: #000 ;
+}
+.social-links{
+    list-style: none;
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    /*position: relative;
+    right:10px;*/
+
+   
+}
+div h4{
+    border-bottom: #000 solid;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.row{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+div ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: antiquewhite;
+}
+div ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 10px;
+    transition: 0.4s ease-out;
+    border-radius: 10px;
+}
+div h5 a:hover{
+    transition: 0.4s ease-out;
+}
+div a i:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 10px;
+    transition: 0.4s ease-out;
+    border-radius: 10px;
+}
+i{
+    color: #fff;
+}
+div nav ul li a i:hover{
+    background-color: rgb(252, 248, 248,50%);
+    color: #000;
+    padding: 10px 10px;
+    transition: 0.4s ease-out;
+    border-radius: 5px;
+    border-bottom:#000 solid 2px ;
+}
+li{
+    list-style: none;
+}
+div ul{
+    margin: 0px 10px;
+}
+p1{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    font-size: 30px ;
+    color:rgb(11, 11, 11);
+    font-family: 'Playfair Display', serif;
+}
+.movies{
+    position: relative;
+    bottom: 60px;
+    left:20px;
+    margin-top: 40px;
+    border: 5px solid rgb(151, 55, 87);
+    padding:12px;
+    border-radius: 30px;
+}
+.movies:hover{
+ background: rgb(158, 148, 148);
+ color: #FFFFFF;
+}
+
+h1{
+    position: relative;
+    bottom:50px;
+    left:80px;
+    margin-top: 60px;
+    margin-left: 40px ;
+    font-size: 40px ;
+   /* background-color: rgb(53, 74, 74);
+    border: 5px solid #000;
+    padding: 10px;
+    border-radius: 30px;
+    display: inline-block;*/
+
+    
+}
+
+h2{
+    position: relative;
+    bottom: 25px;
+    left:75px;
+    margin-top: 50px;
+    font-size: 40px ;
+   /* color: #000;
+    text-shadow:4px 4px 10px black; */
+}
+h4{
+    position: relative;
+    right:10px;
+}
+.button{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 150px;
+}
+.button:hover{
+    background:rgb(214, 47, 47);
+}
+.button:active{
+    background:red;
+}
+.buttonicon,
+.buttontext{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button2{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 160px;
+}
+.button2:hover{
+    background:rgb(214, 47, 47);
+}
+.button2:active{
+    background:red;
+}
+.buttonicon2,
+.buttontext2{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon2{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button3{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 175px;
+}
+.button3:hover{
+    background:rgb(214, 47, 47);
+}
+.button3:active{
+    background:red;
+}
+.buttonicon3,
+.buttontext3{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon3{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button4{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 86px;
+    position: relative;
+    left: 190px;
+}
+.button4:hover{
+    background:rgb(214, 47, 47);
+}
+.button4:active{
+    background:red;
+}
+.buttonicon4,
+.buttontext4{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon4{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+
+.button5{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 150px;
+}
+.button5:hover{
+    background:rgb(214, 47, 47);
+}
+.button5:active{
+    background:red;
+}
+.buttonicon5,
+.buttontext5{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon5{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button6{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 160px;
+}
+.button6:hover{
+    background:rgb(214, 47, 47);
+}
+.button6:active{
+    background:red;
+}
+.buttonicon6,
+.buttontext6{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon6{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button7{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 175px;
+}
+.button7:hover{
+    background:rgb(214, 47, 47);
+}
+.button7:active{
+    background:red;
+}
+.buttonicon7,
+.buttontext7{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon7{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button8{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 86px;
+    position: relative;
+    left: 190px;
+}
+.button8:hover{
+    background:rgb(214, 47, 47);
+}
+.button8:active{
+    background:red;
+}
+.buttonicon8,
+.buttontext8{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon8{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+
+
+.button9{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 150px;
+}
+.button9:hover{
+    background:rgb(214, 47, 47);
+}
+.button9:active{
+    background:red;
+}
+.buttonicon9,
+.buttontext9{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon9{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button10{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 160px;
+}
+.button10:hover{
+    background:rgb(214, 47, 47);
+}
+.button10:active{
+    background:red;
+}
+.buttonicon10,
+.buttontext10{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon10{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button11{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 175px;
+}
+.button11:hover{
+    background:rgb(214, 47, 47);
+}
+.button11:active{
+    background:red;
+}
+.buttonicon11,
+.buttontext11{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon11{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.button12{
+    display: inline-flex;
+    height: 43px;
+    /*width: 200px;*/
+    padding: 0px;
+    background: rgb(255, 42, 42);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 190px;
+}
+.button12:hover{
+    background:rgb(214, 47, 47);
+}
+.button12:active{
+    background:red;
+}
+.buttonicon12,
+.buttontext12{
+   display: inline-flex;
+   align-items: center;
+   padding:0 24px;
+   color: rgb(0, 0, 0);
+   height: 100%;
+}
+.buttonicon12{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0, 0.09);
+}
+.f1{
+    font-size: 70px;
+    text-decoration: none;
+    color:red;
+}
+.n1{
+    font-size: 70px;
+    text-decoration: none;
+    color:blue;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 4px;
+    border-radius: none;
+    
+}
+#fun1{
+    display: inline-flex;
+    height: 43px;
+    padding: 0px;
+    background: rgb(151, 34, 110);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 35px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 80px;
+    position: relative;
+    left: 500px;
+    padding:0 24px;
+    color: rgb(255, 255, 255);
+}
+.buttonjs{
+    display: inline-flex;
+    height: 43px;
+    padding: 0px;
+    background: rgb(85, 35, 67);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Quicksand', sans-serif ;
+    font-size: 35px;
+    font-weight: 500;
+    cursor: pointer;
+   /* margin-left: 80px;*/
+    position: relative;
+    bottom: 30px;
+    padding:0 24px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
