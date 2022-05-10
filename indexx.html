@@ -2,29 +2,37 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="media/title-logo.png" type="image/icon type">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Science Fiction Movies</title>
-    <link rel="stylesheet" href="css-proj/normalize.css" />
-    <link rel="stylesheet" href="css-proj/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2b982c07d5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body id="light">
 
-  <!-- background-image: url(../imgs/movie-background.jpg); -->
-    <div class="fiction" id="fiction" style="background-image: url('media/mooooooon.jpg');">
+    <!-- background-image: url(../imgs/movie-background.jpg); -->
+    <div class="fiction" id="fiction" style="background-image: url(imgs/movie-background.jpg);">
         <div class="overlay">
             <div class="container">
                 <div class="header">
                     <div class="container">
                         <div class="logo">
-                            <span> <img src="media/film-logo.png" alt="logo"></span>
+                            <span> <img src="media/film-logo.png" alt="logo">ilm.net</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="checkbox" id="checkbox">
+                            <label for="checkbox" class="label">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                                <div class="ball"></div>
+                            </label>
                         </div>
                         <div class="links">
 
@@ -32,15 +40,16 @@
                                 <span></span>
                                 <span></span>
                                 <span></span>
+
+                                
                             </span>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#fiction">Home</a></li>
                                 <li><a href="#pricing">Pricing</a></li>
                                 <li><a href="#newest">Newest Movies</a></li>
                                 <li><a href="#best">Best TV Series</a></li>
                                 <li><a href="#most">Most Watched</a></li>
-                                <li><a href="feedback.html">feedback</a></li>
-                                <li><a href="#coming">Upcoming Premieres</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -55,7 +64,9 @@
                             <i class="fas fa-star star-rate"></i>
                             <i class="fas fa-star star-rate"></i>
                         </span>
-                        <p>King Kong is transported out of his containment zone after Godzilla resurfaces and creates mayhem. Humans need his help to reach Hollow Earth and find a way to subdue the king of the monsters.</p>
+                        <p>King Kong is transported out of his containment zone after Godzilla resurfaces and creates
+                            mayhem. Humans need his help to reach Hollow Earth and find a way to subdue the king of the
+                            monsters.</p>
                         <div class="fiction-btn">
                             <a href="godzilla.html#filter" class="watch-btn">Watch now</a>
                             <a href="godzilla.html" class="watch-btn btn-two">Trailer</a>
@@ -73,7 +84,7 @@
                             <img src="media/3.jpg" alt="Venom">
 
                         </a>
-                        <a href="reign of chaos.html">
+                        <a id="hide-img" onclick="showhide()">
                             <img src="media/7.jpg" alt="Regin">
 
                         </a>
@@ -88,7 +99,10 @@
         <div class="container">
             <div class="heading">
                 <h2>Science Fiction</h2>
+
                 <h3>Over 3500 Films</h3>
+
+
             </div>
             <div class="filter-content">
                 <div class="filter-box">
@@ -121,12 +135,12 @@
                     <h3>Country</h3>
                     <select name="country>
                         <optgroup label=" Country">
-                        <option>Egyptian</option>
+                        <option>Egypt</option>
                         <option>USA</option>
-                        <option>Indian</option>
+                        <option>India</option>
                         <option>Turkish</option>
-                        <option>Brazilian</option>
-                        <option>Russian</option>
+                        <option>Brazil</option>
+                        <option>Russia</option>
                         </optgroup>
                     </select>
                 </div>
@@ -147,7 +161,7 @@
             </div>
             <div class="movie-content">
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="warning.html">
                         <img src="media/2.jpg" alt="Warning">
                     </a>
                     <div class="info">
@@ -163,7 +177,7 @@
                 </div>
 
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="venom.html">
                         <img src="media/3.jpg" alt="Venom">
                     </a>
                     <div class="info">
@@ -193,7 +207,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="Alien Battlefield.html">
                         <img src="media/5.jpg" alt="Alien Battlefield">
                     </a>
                     <div class="info">
@@ -208,7 +222,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="infinite.html">
                         <img src="media/6.jpg" alt="Infinite">
                     </a>
                     <div class="info">
@@ -223,7 +237,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="reign of chaos.html">
                         <img src="media/7.jpg" alt="Reigns of Chaos">
                     </a>
                     <div class="info">
@@ -270,7 +284,7 @@
                 </div>
 
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="venom.html">
                         <img src="media/3.jpg" alt="Venom">
                     </a>
                     <div class="info">
@@ -284,7 +298,7 @@
                         </span>
                     </div>
                 </div>
-                   <div class="movie-box">
+                <div class="movie-box">
                     <a href="finch.html">
                         <img src="media/1.jpg" alt="Finch">
                     </a>
@@ -300,7 +314,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="Alien Battlefield.html">
                         <img src="media/5.jpg" alt="Alien Battlefield">
                     </a>
                     <div class="info">
@@ -315,7 +329,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="infinite.html">
                         <img src="media/6.jpg" alt="Infinite">
                     </a>
                     <div class="info">
@@ -330,7 +344,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="reign of chaos.html">
                         <img src="media/7.jpg" alt="Reigns of Chaos">
                     </a>
                     <div class="info">
@@ -376,7 +390,7 @@
                 </div>
 
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="venom.html">
                         <img src="media/3.jpg" alt="Venom">
                     </a>
                     <div class="info">
@@ -390,7 +404,7 @@
                         </span>
                     </div>
                 </div>
-                  <div class="movie-box">
+                <div class="movie-box">
                     <a href="finch.html">
                         <img src="media/1.jpg" alt="Finch">
                     </a>
@@ -406,7 +420,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="Alien Battlefield.html">
                         <img src="media/5.jpg" alt="Alien Battlefield">
                     </a>
                     <div class="info">
@@ -421,7 +435,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="infinite.html">
                         <img src="media/6.jpg" alt="Infinite">
                     </a>
                     <div class="info">
@@ -436,7 +450,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="reign of chaos.html">
                         <img src="media/7.jpg" alt="Reigns of Chaos">
                     </a>
                     <div class="info">
@@ -464,7 +478,6 @@
                 <h3>Upcoming Premiers</h3>
             </div>
             <div class="movie-content">
-
                 <div class="movie-box">
                     <a href="warning.html">
                         <img src="media/2.jpg" alt="Warning">
@@ -482,22 +495,7 @@
                 </div>
 
                 <div class="movie-box">
-                    <a href="#">
-                        <img src="media/5.jpg" alt="Alien Battlefield">
-                    </a>
-                    <div class="info">
-                        <h2>Alien Battlefield</h2>
-                        <span class="rating">
-                            <i class="fas fa-star star-rate"></i>
-                            <i class="fas fa-star star-rate"></i>
-                            <i class="fas fa-star star-rate"></i>
-                            <i class="fas fa-star star-rate"></i>
-                            <i class="fas fa-star star-rate"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="movie-box">
-                    <a href="#">
+                    <a href="venom.html">
                         <img src="media/3.jpg" alt="Venom">
                     </a>
                     <div class="info">
@@ -511,7 +509,7 @@
                         </span>
                     </div>
                 </div>
-                   <div class="movie-box">
+                <div class="movie-box">
                     <a href="finch.html">
                         <img src="media/1.jpg" alt="Finch">
                     </a>
@@ -526,13 +524,12 @@
                         </span>
                     </div>
                 </div>
-
                 <div class="movie-box">
-                    <a href="#">
-                        <img src="media/7.jpg" alt="Reigns of Chaos">
+                    <a href="Alien Battlefield.html">
+                        <img src="media/5.jpg" alt="Alien Battlefield">
                     </a>
                     <div class="info">
-                        <h2>Reigns of Chaos</h2>
+                        <h2>Alien Battlefield</h2>
                         <span class="rating">
                             <i class="fas fa-star star-rate"></i>
                             <i class="fas fa-star star-rate"></i>
@@ -543,7 +540,7 @@
                     </div>
                 </div>
                 <div class="movie-box">
-                    <a href="#">
+                    <a href="infinite.html">
                         <img src="media/6.jpg" alt="Infinite">
                     </a>
                     <div class="info">
@@ -557,7 +554,21 @@
                         </span>
                     </div>
                 </div>
-
+                <div class="movie-box">
+                    <a href="reign of chaos.html">
+                        <img src="media/7.jpg" alt="Reigns of Chaos">
+                    </a>
+                    <div class="info">
+                        <h2>Reigns of Chaos</h2>
+                        <span class="rating">
+                            <i class="fas fa-star star-rate"></i>
+                            <i class="fas fa-star star-rate"></i>
+                            <i class="fas fa-star star-rate"></i>
+                            <i class="fas fa-star star-rate"></i>
+                            <i class="fas fa-star star-rate"></i>
+                        </span>
+                    </div>
+                </div>
                 <div class="movie-box more">
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
@@ -565,7 +576,6 @@
         </div>
 
     </div>
-
     <div class="pricing" id="pricing">
         <div class="container">
             <div class="heading">
@@ -621,27 +631,50 @@
 
 
     <div class="footer">
+        <div class="containar">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Our Website</h4>
+                    <ul>
+                        <li><a href="#"> About</a></li>
+                        <li><a href="#"> Our Services</a> </li>
+                        <li><a href="#">Our Privacy</a> </li>
+                        <li><a href="#">Affiliate Program </a> </li>
 
-        <div class="container">
-            <div class="logo">
-                <img src="media/film-logo.png" alt="logo"><span>ilm.net</span>
-            </div>
-            <p>Science Fiction Movies</p>
+                    </ul>
+                </div>
 
-            <div class="social-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-youtube"></i>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Payment option</a></li>
+                        <li><a href="#">Report</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"> <i class="fa-brands fa-telegram"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+
+                </div>
             </div>
-            <p class="copyright">© 2022 All Rights Reserved.</p>
+
         </div>
     </div>
 
 
 
 
-
+    <script src="main.js"></script>
 </body>
 
 </html>
