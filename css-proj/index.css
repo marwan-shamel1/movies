@@ -10,7 +10,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     /* box-shadow: 2px 10px 1900px 90px inset #000 ;*/
-    background-image:url("../media/WhatsApp\ Image\ 2022-04-25\ at\ 1.56.50\ AM.jpeg");
+    background-image:url("/media/WhatsApp\ Image\ 2022-04-25\ at\ 1.56.50\ AM.jpeg");
 }
 .gh{
     color: blue;
