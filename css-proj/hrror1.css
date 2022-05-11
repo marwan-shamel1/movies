@@ -300,4 +300,6 @@ div a i:hover{
   bottom: 160px;
 }
 
-
+li{
+  list-style: none;
+}

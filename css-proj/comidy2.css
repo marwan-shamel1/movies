@@ -96,6 +96,8 @@ i{
     color: #fff;
 }
 body{
+    overflow-x: hidden;
+    max-width: 100%;
     background-image: url("../media/صورة-ضحك-1.jpg");
     background-attachment: fixed;
     background-size: cover;
