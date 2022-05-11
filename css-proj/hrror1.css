@@ -1,4 +1,6 @@
 body{
+  overflow-x: hidden;
+  max-width: 100%;
   background-color:rgb(0, 0, 0);
   color:red;
 }
@@ -230,24 +232,34 @@ nav ul li a{
     
   padding-top: -10%;
   border-radius: 12px;
-  background-color:rgb(0, 0, 0,70%) ;
+  background-color:#6161616b;
   width:100%;
   background-position: center;
   background-size: cover;
-
+  padding-left: 8%;
+  padding-right: 8%;
   box-sizing: border-box;
   box-shadow: #000 ;
   position: relative;
-  
+  bottom: 1000px;
+  height: 150px;
+  margin-top: 0px;
   
 }
 .social-links{
   float: right;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 110px;
+  right: 20px;
 }
 div h4{
   border-bottom: #000 solid;
   padding-top: 10px;
-  
+  padding-bottom: 5px;
+  position: relative;
+  bottom: 100px;
 }
 .row{
   color: #fff;
@@ -275,15 +287,16 @@ div a i:hover{
   transition: 0.4s ease-out;
   border-radius: 10px;
 }
-i{
+.social-links i{
   color: #fff;
 }
-.containar{
-  height: 20px;
-}
-li{
-  padding: 0px 0px;
-  list-style: none;
+.footer-col ul li{
+  margin-bottom:-30px ;
+  margin-right:5px ;
+  position: relative;
+  bottom: 50px;
+  position: relative;
+  bottom: 160px;
 }
 
 
