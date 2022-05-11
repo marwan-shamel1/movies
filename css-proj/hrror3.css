@@ -1,4 +1,6 @@
 body{
+  overflow-x: hidden;
+  max-width: 100%;
     background-image:url("../media/New\ Project\ 7\ [FFEBD74].png");
     background-size:cover  ;
     background-attachment: fixed;
