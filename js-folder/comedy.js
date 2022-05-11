@@ -1,3 +1,5 @@
+alert ("Welcome TO Comedy Movies");
+
 const stars = document.querySelectorAll(".stars a");
 
 stars.forEach((star, clickedIdx) => {
